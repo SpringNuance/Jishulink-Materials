@@ -1,0 +1,18 @@
+Analysis initiated from SIMULIA established products
+Abaqus JOB Job-C3D8-uel-umat
+Abaqus 2023.HF4
+Abaqus License Manager checked out the following licenses:
+Abaqus/Standard checked out 5 tokens from Flexnet server lic-abaqus.aalto.fi.
+<83 out of 100 licenses remain available>.
+Begin Compiling Abaqus/Standard User Subroutines
+10/9/2024 7:16:41 PM
+Intel(R) Fortran Intel(R) 64 Compiler Classic for applications running on Intel(R) 64, Version 2021.11.1 Build 20231117_000000
+Copyright (C) 1985-2023 Intel Corporation.  All rights reserved.
+
+ifort: remark #10448: Intel(R) Fortran Compiler Classic (ifort) is now deprecated and will be discontinued late 2024. Intel recommends that customers transition now to using the LLVM-based Intel(R) Fortran Compiler (ifx) for continued Windows* and Linux* support, new language support, new language features, and optimizations. Use '/Qdiag-disable:10448' to disable this message.
+C3D8_uel_umat_main.f90(445): error #6417: The dimensions of this array have been defined more than once.   [AMATRX]
+    real(8) :: amatrx(24,24)
+---------------^
+compilation aborted for C3D8_uel_umat_main.f90 (code 1)
+Abaqus Error: Problem during compilation - C3D8_uel_umat_main.f90
+Abaqus/Analysis exited with errors
