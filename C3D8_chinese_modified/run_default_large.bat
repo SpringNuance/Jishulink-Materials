@@ -1,1 +1,0 @@
-abaqus job=Job-PlateWithHole-built-in cpus=8 -verbose 2 interactive

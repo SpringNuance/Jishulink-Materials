@@ -1,0 +1,2 @@
+CALL abaqus JOB=JOB-1 USER=a CPUS=6 INT
+PAUSE

@@ -1,0 +1,1 @@
+call ABAQUS job=job-1 cpus=10 int

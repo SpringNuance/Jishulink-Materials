@@ -1,1 +1,0 @@
-abaqus job=Job-PlateWithHole-uel-umat user=C3D8_uel_umat_main cpus=8 -verbose 2 interactive

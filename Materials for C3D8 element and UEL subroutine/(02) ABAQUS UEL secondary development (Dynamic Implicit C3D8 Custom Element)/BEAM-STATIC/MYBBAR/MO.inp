@@ -1,0 +1,28 @@
+**include,input=Martix_output.inp
+************************************************************************************
+***输出单元刚度矩阵
+*Step, name=Emmkk
+*dynamic
+ 1.,1.,1e-05
+*File Format, ASCII
+*Element Matrix Output, Elset=Part-1-1.SET-1, File Name=EMass, Output File=User Defined, mass=yes
+*Element Matrix Output, Elset=Part-1-1.SET-1, File Name=EStiffness, Output File=User Defined, stiffness=yes
+*End Step
+************************************************************************************
+***输出总体刚度矩阵
+*Step, name=Gkk
+*MATRIX GENERATE, STIFFNESS
+*MATRIX OUTPUT, STIFFNESS, FORMAT=COORDINATE
+*End Step
+************************************************************************************
+***输出总体质量矩阵，集中质量阵
+*Step, name=Gmm
+*MATRIX GENERATE, mass
+*MATRIX OUTPUT, mass, FORMAT=COORDINATE
+*End Step	
+************************************************************************************
+***输出总体阻尼矩阵，瑞丽阻尼
+*Step, name=Gcc
+*MATRIX GENERATE, VISCOUS DAMPING
+*MATRIX OUTPUT, VISCOUS DAMPING, FORMAT=COORDINATE
+*End Step		

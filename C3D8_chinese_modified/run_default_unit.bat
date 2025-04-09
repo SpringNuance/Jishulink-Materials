@@ -1,1 +1,0 @@
-abaqus job=Job-C3D8-built-in cpus=8 -verbose 2 interactive

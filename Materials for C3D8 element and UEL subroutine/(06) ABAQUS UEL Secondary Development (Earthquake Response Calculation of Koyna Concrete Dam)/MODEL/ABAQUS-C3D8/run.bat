@@ -1,0 +1,1 @@
+call abaqus job=job-1 cpus=10 int
